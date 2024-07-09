@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "second-assignment",
+    "slug": "second-assignment",
+    "plugins": [
+      [
+        "react-native-fbsdk-next",{
+        "appID": "813810744265727",
+        "clientToken": "ba5dd07ef26d92b15556556dace7232a",
+        "displayName": "Broadcast-Recievers"
+      }
+    ]
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
