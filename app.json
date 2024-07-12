@@ -9,6 +9,16 @@
         "clientToken": "ba5dd07ef26d92b15556556dace7232a",
         "displayName": "Broadcast-Recievers"
       }
+    ],
+    [
+      "expo-image-picker",
+      {
+        "photosPermission": "custom photos permission",
+        "cameraPermission": "Allow $(PRODUCT_NAME) to open the camera",
+
+        "//": "Disables the microphone permission",
+        "microphonePermission": false
+      }
     ]
     ],
     "version": "1.0.0",

@@ -9,6 +9,7 @@ import Login from './screens/Login';
 import HomeScreen from './screens/HomeScreen';
 import CustomDrawerContent from './components/CustomDrawerContent';
 import Calculator from './screens/Calculator';
+import ContactScreen from './screens/ContactScreen';
 import { Ionicons } from '@expo/vector-icons';
 import { LoginManager } from 'react-native-fbsdk-next';
 
@@ -67,6 +68,7 @@ const DrawerNavigator = () => (
     screenOptions={{ headerShown: false }}
   >
     <Drawer.Screen name="BottomTabs" component={BottomTabs} options={{ drawerLabel: 'Tabs' }} />
+    <Drawer.Screen name="ContactScreen" component={ContactScreen} options={{ drawerLabel: 'Contact' }} />
   </Drawer.Navigator>
 );
 
