@@ -15,17 +15,11 @@ const HomeScreen = () => {
   return (
     <SafeAreaView className={`flex-1 items-center justify-center ${colorScheme === 'dark' ? 'bg-neutral-900' : 'bg-white'}`}>
       <StatusBar style={colorScheme === 'dark' ? 'light' : 'dark'} />
-      <View className="flex-row">
-        <Text className={`pt-3 ${colorScheme === 'dark' ? 'text-white' : 'text-black'}`}>Theme</Text>
-        <Switch value={colorScheme === 'dark'} onValueChange={toggleColorScheme} />
-      </View>
-      <Text className={`${colorScheme === 'dark' ? 'text-white' : 'text-black'}`}>HomeScreen back</Text>
-      <Text className={`${colorScheme === 'dark' ? 'text-white' : 'text-black'}`}>
+      <Text>This is the HomeScreen</Text>
+      <Text >
         By following these steps, your app should be able to persist user sessions and keep users logged in even after they close and reopen the app.
       </Text>
-      <Text className={`${colorScheme === 'dark' ? 'text-white' : 'text-black'}`}>
-        {isConnected ? 'You are online.' : 'You are offline.'}
-      </Text>
+
 
     </SafeAreaView> 
   );
